@@ -1,0 +1,1203 @@
+fileFormatVersion: 2
+guid: 2243891383cb55a45a680fc491eb3424
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: board
+    100002: //RootNode
+    100004: Plane001
+    100006: Rock004
+    100008: Rock005
+    100010: Rock006
+    100012: Rock007
+    100014: Rock008
+    100016: Rock009
+    100018: Rock2
+    100020: small rocks
+    100022: small rocks002
+    100024: small rocks003
+    100026: small rocks004
+    100028: small rocks005
+    100030: small rocks006
+    100032: small rocks007
+    100034: small rocks008
+    100036: small rocks009
+    100038: small rocks010
+    100040: small rocks011
+    100042: small rocks012
+    100044: small rocks013
+    100046: small rocks014
+    100048: small rocks015
+    100050: small rocks016
+    100052: small rocks017
+    100054: small rocks019
+    100056: small rocks020
+    100058: small rocks021
+    100060: small rocks022
+    100062: small rocks023
+    100064: small rocks024
+    100066: small rocks025
+    100068: small rocks026
+    100070: small rocks027
+    100072: small rocks028
+    100074: small rocks029
+    100076: small rocks030
+    100078: small rocks034
+    100080: small rocks035
+    100082: small rocks036
+    100084: small rocks037
+    100086: small rocks038
+    100088: small rocks039
+    100090: small rocks040
+    100092: small rocks041
+    100094: small rocks042
+    100096: small rocks043
+    100098: small rocks044
+    100100: small rocks045
+    100102: small rocks046
+    100104: small rocks047
+    100106: small rocks048
+    100108: small rocks049
+    100110: small rocks050
+    100112: small rocks051
+    100114: small rocks052
+    100116: small rocks053
+    100118: small rocks054
+    100120: small rocks055
+    100122: small rocks056
+    100124: small rocks057
+    100126: small rocks058
+    100128: small rocks059
+    100130: small rocks060
+    100132: small rocks061
+    100134: small rocks062
+    100136: small rocks063
+    100138: small rocks064
+    100140: small rocks065
+    100142: small rocks066
+    100144: small rocks067
+    100146: small rocks068
+    100148: small rocks069
+    100150: small rocks070
+    100152: small rocks071
+    100154: small rocks072
+    100156: small rocks073
+    100158: small rocks074
+    100160: small rocks075
+    100162: small rocks076
+    100164: small rocks077
+    100166: small rocks078
+    100168: small rocks079
+    100170: small rocks080
+    100172: small rocks081
+    100174: small rocks082
+    100176: small rocks083
+    100178: small rocks084
+    100180: small rocks085
+    100182: small rocks086
+    100184: small rocks087
+    100186: small rocks088
+    100188: small rocks089
+    100190: small rocks090
+    100192: small rocks091
+    100194: small rocks092
+    100196: small rocks093
+    100198: small rocks094
+    100200: small rocks095
+    100202: small rocks096
+    100204: small rocks097
+    100206: small rocks098
+    100208: small rocks099
+    100210: small rocks100
+    100212: small rocks101
+    100214: small rocks102
+    100216: small rocks103
+    100218: small rocks104
+    100220: small rocks105
+    100222: small rocks106
+    100224: small rocks107
+    100226: small rocks108
+    100228: small rocks109
+    100230: small rocks110
+    100232: small rocks111
+    100234: small rocks112
+    100236: small rocks113
+    100238: small rocks114
+    100240: small rocks115
+    100242: small rocks116
+    100244: small rocks117
+    100246: small rocks118
+    100248: small rocks119
+    100250: small rocks120
+    100252: small rocks121
+    100254: small rocks122
+    100256: small rocks123
+    100258: small rocks124
+    100260: small rocks125
+    100262: small rocks126
+    100264: small rocks127
+    100266: small rocks128
+    100268: small rocks129
+    100270: small rocks130
+    100272: small rocks131
+    100274: small rocks132
+    100276: small rocks133
+    100278: small rocks134
+    100280: small rocks135
+    100282: small rocks136
+    100284: small rocks137
+    100286: small rocks138
+    100288: small rocks139
+    100290: small rocks140
+    100292: small rocks141
+    100294: small rocks142
+    100296: small rocks143
+    100298: small rocks144
+    100300: small rocks145
+    100302: small rocks146
+    100304: small rocks147
+    100306: small rocks148
+    100308: small rocks149
+    100310: small rocks150
+    100312: small rocks151
+    100314: small rocks152
+    100316: small rocks153
+    100318: small rocks154
+    100320: small rocks155
+    100322: small rocks156
+    100324: small rocks157
+    100326: small rocks158
+    100328: small rocks159
+    100330: small rocks160
+    100332: small rocks161
+    100334: small rocks162
+    100336: small rocks163
+    100338: small rocks164
+    100340: small rocks165
+    100342: small rocks166
+    100344: small rocks167
+    100346: small rocks168
+    100348: small rocks169
+    100350: wood
+    100352: wood003
+    100354: wood1
+    100356: wood2
+    100358: wooden bucket
+    100360: wooden bucket001
+    400000: board
+    400002: //RootNode
+    400004: Plane001
+    400006: Rock004
+    400008: Rock005
+    400010: Rock006
+    400012: Rock007
+    400014: Rock008
+    400016: Rock009
+    400018: Rock2
+    400020: small rocks
+    400022: small rocks002
+    400024: small rocks003
+    400026: small rocks004
+    400028: small rocks005
+    400030: small rocks006
+    400032: small rocks007
+    400034: small rocks008
+    400036: small rocks009
+    400038: small rocks010
+    400040: small rocks011
+    400042: small rocks012
+    400044: small rocks013
+    400046: small rocks014
+    400048: small rocks015
+    400050: small rocks016
+    400052: small rocks017
+    400054: small rocks019
+    400056: small rocks020
+    400058: small rocks021
+    400060: small rocks022
+    400062: small rocks023
+    400064: small rocks024
+    400066: small rocks025
+    400068: small rocks026
+    400070: small rocks027
+    400072: small rocks028
+    400074: small rocks029
+    400076: small rocks030
+    400078: small rocks034
+    400080: small rocks035
+    400082: small rocks036
+    400084: small rocks037
+    400086: small rocks038
+    400088: small rocks039
+    400090: small rocks040
+    400092: small rocks041
+    400094: small rocks042
+    400096: small rocks043
+    400098: small rocks044
+    400100: small rocks045
+    400102: small rocks046
+    400104: small rocks047
+    400106: small rocks048
+    400108: small rocks049
+    400110: small rocks050
+    400112: small rocks051
+    400114: small rocks052
+    400116: small rocks053
+    400118: small rocks054
+    400120: small rocks055
+    400122: small rocks056
+    400124: small rocks057
+    400126: small rocks058
+    400128: small rocks059
+    400130: small rocks060
+    400132: small rocks061
+    400134: small rocks062
+    400136: small rocks063
+    400138: small rocks064
+    400140: small rocks065
+    400142: small rocks066
+    400144: small rocks067
+    400146: small rocks068
+    400148: small rocks069
+    400150: small rocks070
+    400152: small rocks071
+    400154: small rocks072
+    400156: small rocks073
+    400158: small rocks074
+    400160: small rocks075
+    400162: small rocks076
+    400164: small rocks077
+    400166: small rocks078
+    400168: small rocks079
+    400170: small rocks080
+    400172: small rocks081
+    400174: small rocks082
+    400176: small rocks083
+    400178: small rocks084
+    400180: small rocks085
+    400182: small rocks086
+    400184: small rocks087
+    400186: small rocks088
+    400188: small rocks089
+    400190: small rocks090
+    400192: small rocks091
+    400194: small rocks092
+    400196: small rocks093
+    400198: small rocks094
+    400200: small rocks095
+    400202: small rocks096
+    400204: small rocks097
+    400206: small rocks098
+    400208: small rocks099
+    400210: small rocks100
+    400212: small rocks101
+    400214: small rocks102
+    400216: small rocks103
+    400218: small rocks104
+    400220: small rocks105
+    400222: small rocks106
+    400224: small rocks107
+    400226: small rocks108
+    400228: small rocks109
+    400230: small rocks110
+    400232: small rocks111
+    400234: small rocks112
+    400236: small rocks113
+    400238: small rocks114
+    400240: small rocks115
+    400242: small rocks116
+    400244: small rocks117
+    400246: small rocks118
+    400248: small rocks119
+    400250: small rocks120
+    400252: small rocks121
+    400254: small rocks122
+    400256: small rocks123
+    400258: small rocks124
+    400260: small rocks125
+    400262: small rocks126
+    400264: small rocks127
+    400266: small rocks128
+    400268: small rocks129
+    400270: small rocks130
+    400272: small rocks131
+    400274: small rocks132
+    400276: small rocks133
+    400278: small rocks134
+    400280: small rocks135
+    400282: small rocks136
+    400284: small rocks137
+    400286: small rocks138
+    400288: small rocks139
+    400290: small rocks140
+    400292: small rocks141
+    400294: small rocks142
+    400296: small rocks143
+    400298: small rocks144
+    400300: small rocks145
+    400302: small rocks146
+    400304: small rocks147
+    400306: small rocks148
+    400308: small rocks149
+    400310: small rocks150
+    400312: small rocks151
+    400314: small rocks152
+    400316: small rocks153
+    400318: small rocks154
+    400320: small rocks155
+    400322: small rocks156
+    400324: small rocks157
+    400326: small rocks158
+    400328: small rocks159
+    400330: small rocks160
+    400332: small rocks161
+    400334: small rocks162
+    400336: small rocks163
+    400338: small rocks164
+    400340: small rocks165
+    400342: small rocks166
+    400344: small rocks167
+    400346: small rocks168
+    400348: small rocks169
+    400350: wood
+    400352: wood003
+    400354: wood1
+    400356: wood2
+    400358: wooden bucket
+    400360: wooden bucket001
+    2100000: Rock
+    2100002: Debris
+    2100004: wood
+    2100006: bucket tex
+    2100008: wooden boards
+    2300000: board
+    2300002: Plane001
+    2300004: Rock004
+    2300006: Rock005
+    2300008: Rock006
+    2300010: Rock007
+    2300012: Rock008
+    2300014: Rock009
+    2300016: Rock2
+    2300018: small rocks
+    2300020: small rocks002
+    2300022: small rocks003
+    2300024: small rocks004
+    2300026: small rocks005
+    2300028: small rocks006
+    2300030: small rocks007
+    2300032: small rocks008
+    2300034: small rocks009
+    2300036: small rocks010
+    2300038: small rocks011
+    2300040: small rocks012
+    2300042: small rocks013
+    2300044: small rocks014
+    2300046: small rocks015
+    2300048: small rocks016
+    2300050: small rocks017
+    2300052: small rocks019
+    2300054: small rocks020
+    2300056: small rocks021
+    2300058: small rocks022
+    2300060: small rocks023
+    2300062: small rocks024
+    2300064: small rocks025
+    2300066: small rocks026
+    2300068: small rocks027
+    2300070: small rocks028
+    2300072: small rocks029
+    2300074: small rocks030
+    2300076: small rocks034
+    2300078: small rocks035
+    2300080: small rocks036
+    2300082: small rocks037
+    2300084: small rocks038
+    2300086: small rocks039
+    2300088: small rocks040
+    2300090: small rocks041
+    2300092: small rocks042
+    2300094: small rocks043
+    2300096: small rocks044
+    2300098: small rocks045
+    2300100: small rocks046
+    2300102: small rocks047
+    2300104: small rocks048
+    2300106: small rocks049
+    2300108: small rocks050
+    2300110: small rocks051
+    2300112: small rocks052
+    2300114: small rocks053
+    2300116: small rocks054
+    2300118: small rocks055
+    2300120: small rocks056
+    2300122: small rocks057
+    2300124: small rocks058
+    2300126: small rocks059
+    2300128: small rocks060
+    2300130: small rocks061
+    2300132: small rocks062
+    2300134: small rocks063
+    2300136: small rocks064
+    2300138: small rocks065
+    2300140: small rocks066
+    2300142: small rocks067
+    2300144: small rocks068
+    2300146: small rocks069
+    2300148: small rocks070
+    2300150: small rocks071
+    2300152: small rocks072
+    2300154: small rocks073
+    2300156: small rocks074
+    2300158: small rocks075
+    2300160: small rocks076
+    2300162: small rocks077
+    2300164: small rocks078
+    2300166: small rocks079
+    2300168: small rocks080
+    2300170: small rocks081
+    2300172: small rocks082
+    2300174: small rocks083
+    2300176: small rocks084
+    2300178: small rocks085
+    2300180: small rocks086
+    2300182: small rocks087
+    2300184: small rocks088
+    2300186: small rocks089
+    2300188: small rocks090
+    2300190: small rocks091
+    2300192: small rocks092
+    2300194: small rocks093
+    2300196: small rocks094
+    2300198: small rocks095
+    2300200: small rocks096
+    2300202: small rocks097
+    2300204: small rocks098
+    2300206: small rocks099
+    2300208: small rocks100
+    2300210: small rocks101
+    2300212: small rocks102
+    2300214: small rocks103
+    2300216: small rocks104
+    2300218: small rocks105
+    2300220: small rocks106
+    2300222: small rocks107
+    2300224: small rocks108
+    2300226: small rocks109
+    2300228: small rocks110
+    2300230: small rocks111
+    2300232: small rocks112
+    2300234: small rocks113
+    2300236: small rocks114
+    2300238: small rocks115
+    2300240: small rocks116
+    2300242: small rocks117
+    2300244: small rocks118
+    2300246: small rocks119
+    2300248: small rocks120
+    2300250: small rocks121
+    2300252: small rocks122
+    2300254: small rocks123
+    2300256: small rocks124
+    2300258: small rocks125
+    2300260: small rocks126
+    2300262: small rocks127
+    2300264: small rocks128
+    2300266: small rocks129
+    2300268: small rocks130
+    2300270: small rocks131
+    2300272: small rocks132
+    2300274: small rocks133
+    2300276: small rocks134
+    2300278: small rocks135
+    2300280: small rocks136
+    2300282: small rocks137
+    2300284: small rocks138
+    2300286: small rocks139
+    2300288: small rocks140
+    2300290: small rocks141
+    2300292: small rocks142
+    2300294: small rocks143
+    2300296: small rocks144
+    2300298: small rocks145
+    2300300: small rocks146
+    2300302: small rocks147
+    2300304: small rocks148
+    2300306: small rocks149
+    2300308: small rocks150
+    2300310: small rocks151
+    2300312: small rocks152
+    2300314: small rocks153
+    2300316: small rocks154
+    2300318: small rocks155
+    2300320: small rocks156
+    2300322: small rocks157
+    2300324: small rocks158
+    2300326: small rocks159
+    2300328: small rocks160
+    2300330: small rocks161
+    2300332: small rocks162
+    2300334: small rocks163
+    2300336: small rocks164
+    2300338: small rocks165
+    2300340: small rocks166
+    2300342: small rocks167
+    2300344: small rocks168
+    2300346: small rocks169
+    2300348: wood
+    2300350: wood003
+    2300352: wood1
+    2300354: wood2
+    2300356: wooden bucket
+    2300358: wooden bucket001
+    3300000: board
+    3300002: Plane001
+    3300004: Rock004
+    3300006: Rock005
+    3300008: Rock006
+    3300010: Rock007
+    3300012: Rock008
+    3300014: Rock009
+    3300016: Rock2
+    3300018: small rocks
+    3300020: small rocks002
+    3300022: small rocks003
+    3300024: small rocks004
+    3300026: small rocks005
+    3300028: small rocks006
+    3300030: small rocks007
+    3300032: small rocks008
+    3300034: small rocks009
+    3300036: small rocks010
+    3300038: small rocks011
+    3300040: small rocks012
+    3300042: small rocks013
+    3300044: small rocks014
+    3300046: small rocks015
+    3300048: small rocks016
+    3300050: small rocks017
+    3300052: small rocks019
+    3300054: small rocks020
+    3300056: small rocks021
+    3300058: small rocks022
+    3300060: small rocks023
+    3300062: small rocks024
+    3300064: small rocks025
+    3300066: small rocks026
+    3300068: small rocks027
+    3300070: small rocks028
+    3300072: small rocks029
+    3300074: small rocks030
+    3300076: small rocks034
+    3300078: small rocks035
+    3300080: small rocks036
+    3300082: small rocks037
+    3300084: small rocks038
+    3300086: small rocks039
+    3300088: small rocks040
+    3300090: small rocks041
+    3300092: small rocks042
+    3300094: small rocks043
+    3300096: small rocks044
+    3300098: small rocks045
+    3300100: small rocks046
+    3300102: small rocks047
+    3300104: small rocks048
+    3300106: small rocks049
+    3300108: small rocks050
+    3300110: small rocks051
+    3300112: small rocks052
+    3300114: small rocks053
+    3300116: small rocks054
+    3300118: small rocks055
+    3300120: small rocks056
+    3300122: small rocks057
+    3300124: small rocks058
+    3300126: small rocks059
+    3300128: small rocks060
+    3300130: small rocks061
+    3300132: small rocks062
+    3300134: small rocks063
+    3300136: small rocks064
+    3300138: small rocks065
+    3300140: small rocks066
+    3300142: small rocks067
+    3300144: small rocks068
+    3300146: small rocks069
+    3300148: small rocks070
+    3300150: small rocks071
+    3300152: small rocks072
+    3300154: small rocks073
+    3300156: small rocks074
+    3300158: small rocks075
+    3300160: small rocks076
+    3300162: small rocks077
+    3300164: small rocks078
+    3300166: small rocks079
+    3300168: small rocks080
+    3300170: small rocks081
+    3300172: small rocks082
+    3300174: small rocks083
+    3300176: small rocks084
+    3300178: small rocks085
+    3300180: small rocks086
+    3300182: small rocks087
+    3300184: small rocks088
+    3300186: small rocks089
+    3300188: small rocks090
+    3300190: small rocks091
+    3300192: small rocks092
+    3300194: small rocks093
+    3300196: small rocks094
+    3300198: small rocks095
+    3300200: small rocks096
+    3300202: small rocks097
+    3300204: small rocks098
+    3300206: small rocks099
+    3300208: small rocks100
+    3300210: small rocks101
+    3300212: small rocks102
+    3300214: small rocks103
+    3300216: small rocks104
+    3300218: small rocks105
+    3300220: small rocks106
+    3300222: small rocks107
+    3300224: small rocks108
+    3300226: small rocks109
+    3300228: small rocks110
+    3300230: small rocks111
+    3300232: small rocks112
+    3300234: small rocks113
+    3300236: small rocks114
+    3300238: small rocks115
+    3300240: small rocks116
+    3300242: small rocks117
+    3300244: small rocks118
+    3300246: small rocks119
+    3300248: small rocks120
+    3300250: small rocks121
+    3300252: small rocks122
+    3300254: small rocks123
+    3300256: small rocks124
+    3300258: small rocks125
+    3300260: small rocks126
+    3300262: small rocks127
+    3300264: small rocks128
+    3300266: small rocks129
+    3300268: small rocks130
+    3300270: small rocks131
+    3300272: small rocks132
+    3300274: small rocks133
+    3300276: small rocks134
+    3300278: small rocks135
+    3300280: small rocks136
+    3300282: small rocks137
+    3300284: small rocks138
+    3300286: small rocks139
+    3300288: small rocks140
+    3300290: small rocks141
+    3300292: small rocks142
+    3300294: small rocks143
+    3300296: small rocks144
+    3300298: small rocks145
+    3300300: small rocks146
+    3300302: small rocks147
+    3300304: small rocks148
+    3300306: small rocks149
+    3300308: small rocks150
+    3300310: small rocks151
+    3300312: small rocks152
+    3300314: small rocks153
+    3300316: small rocks154
+    3300318: small rocks155
+    3300320: small rocks156
+    3300322: small rocks157
+    3300324: small rocks158
+    3300326: small rocks159
+    3300328: small rocks160
+    3300330: small rocks161
+    3300332: small rocks162
+    3300334: small rocks163
+    3300336: small rocks164
+    3300338: small rocks165
+    3300340: small rocks166
+    3300342: small rocks167
+    3300344: small rocks168
+    3300346: small rocks169
+    3300348: wood
+    3300350: wood003
+    3300352: wood1
+    3300354: wood2
+    3300356: wooden bucket
+    3300358: wooden bucket001
+    4300000: small rocks009
+    4300002: small rocks010
+    4300004: small rocks011
+    4300006: small rocks021
+    4300008: Plane001
+    4300010: wood
+    4300012: wood2
+    4300014: wood1
+    4300016: wood003
+    4300018: wooden bucket
+    4300020: Rock008
+    4300022: small rocks039
+    4300024: small rocks040
+    4300026: small rocks041
+    4300028: small rocks042
+    4300030: small rocks043
+    4300032: small rocks115
+    4300034: small rocks118
+    4300036: small rocks121
+    4300038: small rocks122
+    4300040: small rocks123
+    4300042: small rocks125
+    4300044: small rocks128
+    4300046: small rocks129
+    4300048: small rocks130
+    4300050: small rocks131
+    4300052: small rocks132
+    4300054: small rocks133
+    4300056: small rocks134
+    4300058: small rocks135
+    4300060: small rocks136
+    4300062: small rocks137
+    4300064: small rocks138
+    4300066: small rocks139
+    4300068: small rocks140
+    4300070: small rocks141
+    4300072: small rocks143
+    4300074: small rocks146
+    4300076: small rocks147
+    4300078: small rocks148
+    4300080: small rocks149
+    4300082: small rocks150
+    4300084: small rocks151
+    4300086: small rocks153
+    4300088: small rocks156
+    4300090: small rocks157
+    4300092: small rocks158
+    4300094: small rocks159
+    4300096: small rocks160
+    4300098: small rocks161
+    4300100: small rocks162
+    4300102: small rocks163
+    4300104: small rocks164
+    4300106: small rocks165
+    4300108: small rocks166
+    4300110: small rocks167
+    4300112: small rocks168
+    4300114: small rocks169
+    4300116: small rocks116
+    4300118: small rocks117
+    4300120: small rocks119
+    4300122: small rocks120
+    4300124: small rocks124
+    4300126: small rocks114
+    4300128: small rocks144
+    4300130: small rocks145
+    4300132: small rocks152
+    4300134: small rocks154
+    4300136: small rocks155
+    4300138: small rocks142
+    4300140: small rocks101
+    4300142: small rocks104
+    4300144: small rocks105
+    4300146: small rocks106
+    4300148: small rocks107
+    4300150: small rocks108
+    4300152: small rocks109
+    4300154: small rocks110
+    4300156: small rocks111
+    4300158: small rocks126
+    4300160: small rocks127
+    4300162: small rocks022
+    4300164: small rocks023
+    4300166: small rocks024
+    4300168: small rocks025
+    4300170: small rocks026
+    4300172: small rocks027
+    4300174: small rocks028
+    4300176: small rocks029
+    4300178: small rocks035
+    4300180: small rocks036
+    4300182: small rocks037
+    4300184: small rocks038
+    4300186: small rocks100
+    4300188: small rocks102
+    4300190: small rocks103
+    4300192: small rocks112
+    4300194: small rocks113
+    4300196: small rocks030
+    4300198: small rocks034
+    4300200: small rocks087
+    4300202: small rocks090
+    4300204: small rocks091
+    4300206: small rocks092
+    4300208: small rocks093
+    4300210: small rocks094
+    4300212: small rocks095
+    4300214: small rocks096
+    4300216: small rocks097
+    4300218: small rocks088
+    4300220: small rocks089
+    4300222: small rocks098
+    4300224: small rocks086
+    4300226: small rocks076
+    4300228: small rocks079
+    4300230: small rocks080
+    4300232: small rocks099
+    4300234: small rocks073
+    4300236: small rocks078
+    4300238: small rocks081
+    4300240: small rocks083
+    4300242: small rocks082
+    4300244: small rocks077
+    4300246: small rocks062
+    4300248: small rocks065
+    4300250: small rocks066
+    4300252: small rocks069
+    4300254: small rocks072
+    4300256: small rocks074
+    4300258: small rocks075
+    4300260: small rocks084
+    4300262: small rocks085
+    4300264: small rocks058
+    4300266: small rocks059
+    4300268: small rocks060
+    4300270: small rocks061
+    4300272: small rocks063
+    4300274: small rocks064
+    4300276: small rocks067
+    4300278: small rocks068
+    4300280: small rocks070
+    4300282: small rocks071
+    4300284: small rocks044
+    4300286: small rocks045
+    4300288: small rocks046
+    4300290: small rocks047
+    4300292: small rocks048
+    4300294: small rocks049
+    4300296: small rocks050
+    4300298: small rocks051
+    4300300: small rocks052
+    4300302: small rocks053
+    4300304: small rocks054
+    4300306: small rocks055
+    4300308: small rocks056
+    4300310: small rocks002
+    4300312: small rocks005
+    4300314: small rocks008
+    4300316: small rocks012
+    4300318: small rocks013
+    4300320: small rocks014
+    4300322: small rocks015
+    4300324: small rocks057
+    4300326: small rocks
+    4300328: small rocks003
+    4300330: small rocks004
+    4300332: small rocks006
+    4300334: small rocks007
+    4300336: small rocks016
+    4300338: small rocks017
+    4300340: small rocks019
+    4300342: small rocks020
+    4300344: Rock007
+    4300346: Rock004
+    4300348: Rock2
+    4300350: Rock009
+    4300352: Rock006
+    4300354: Rock005
+    4300356: board
+    4300358: wooden bucket001
+    6400000: board
+    6400002: Plane001
+    6400004: Rock004
+    6400006: Rock005
+    6400008: Rock006
+    6400010: Rock007
+    6400012: Rock008
+    6400014: Rock009
+    6400016: Rock2
+    6400018: small rocks
+    6400020: small rocks002
+    6400022: small rocks003
+    6400024: small rocks004
+    6400026: small rocks005
+    6400028: small rocks006
+    6400030: small rocks007
+    6400032: small rocks008
+    6400034: small rocks009
+    6400036: small rocks010
+    6400038: small rocks011
+    6400040: small rocks012
+    6400042: small rocks013
+    6400044: small rocks014
+    6400046: small rocks015
+    6400048: small rocks016
+    6400050: small rocks017
+    6400052: small rocks019
+    6400054: small rocks020
+    6400056: small rocks021
+    6400058: small rocks022
+    6400060: small rocks023
+    6400062: small rocks024
+    6400064: small rocks025
+    6400066: small rocks026
+    6400068: small rocks027
+    6400070: small rocks028
+    6400072: small rocks029
+    6400074: small rocks030
+    6400076: small rocks034
+    6400078: small rocks035
+    6400080: small rocks036
+    6400082: small rocks037
+    6400084: small rocks038
+    6400086: small rocks039
+    6400088: small rocks040
+    6400090: small rocks041
+    6400092: small rocks042
+    6400094: small rocks043
+    6400096: small rocks044
+    6400098: small rocks045
+    6400100: small rocks046
+    6400102: small rocks047
+    6400104: small rocks048
+    6400106: small rocks049
+    6400108: small rocks050
+    6400110: small rocks051
+    6400112: small rocks052
+    6400114: small rocks053
+    6400116: small rocks054
+    6400118: small rocks055
+    6400120: small rocks056
+    6400122: small rocks057
+    6400124: small rocks058
+    6400126: small rocks059
+    6400128: small rocks060
+    6400130: small rocks061
+    6400132: small rocks062
+    6400134: small rocks063
+    6400136: small rocks064
+    6400138: small rocks065
+    6400140: small rocks066
+    6400142: small rocks067
+    6400144: small rocks068
+    6400146: small rocks069
+    6400148: small rocks070
+    6400150: small rocks071
+    6400152: small rocks072
+    6400154: small rocks073
+    6400156: small rocks074
+    6400158: small rocks075
+    6400160: small rocks076
+    6400162: small rocks077
+    6400164: small rocks078
+    6400166: small rocks079
+    6400168: small rocks080
+    6400170: small rocks081
+    6400172: small rocks082
+    6400174: small rocks083
+    6400176: small rocks084
+    6400178: small rocks085
+    6400180: small rocks086
+    6400182: small rocks087
+    6400184: small rocks088
+    6400186: small rocks089
+    6400188: small rocks090
+    6400190: small rocks091
+    6400192: small rocks092
+    6400194: small rocks093
+    6400196: small rocks094
+    6400198: small rocks095
+    6400200: small rocks096
+    6400202: small rocks097
+    6400204: small rocks098
+    6400206: small rocks099
+    6400208: small rocks100
+    6400210: small rocks101
+    6400212: small rocks102
+    6400214: small rocks103
+    6400216: small rocks104
+    6400218: small rocks105
+    6400220: small rocks106
+    6400222: small rocks107
+    6400224: small rocks108
+    6400226: small rocks109
+    6400228: small rocks110
+    6400230: small rocks111
+    6400232: small rocks112
+    6400234: small rocks113
+    6400236: small rocks114
+    6400238: small rocks115
+    6400240: small rocks116
+    6400242: small rocks117
+    6400244: small rocks118
+    6400246: small rocks119
+    6400248: small rocks120
+    6400250: small rocks121
+    6400252: small rocks122
+    6400254: small rocks123
+    6400256: small rocks124
+    6400258: small rocks125
+    6400260: small rocks126
+    6400262: small rocks127
+    6400264: small rocks128
+    6400266: small rocks129
+    6400268: small rocks130
+    6400270: small rocks131
+    6400272: small rocks132
+    6400274: small rocks133
+    6400276: small rocks134
+    6400278: small rocks135
+    6400280: small rocks136
+    6400282: small rocks137
+    6400284: small rocks138
+    6400286: small rocks139
+    6400288: small rocks140
+    6400290: small rocks141
+    6400292: small rocks142
+    6400294: small rocks143
+    6400296: small rocks144
+    6400298: small rocks145
+    6400300: small rocks146
+    6400302: small rocks147
+    6400304: small rocks148
+    6400306: small rocks149
+    6400308: small rocks150
+    6400310: small rocks151
+    6400312: small rocks152
+    6400314: small rocks153
+    6400316: small rocks154
+    6400318: small rocks155
+    6400320: small rocks156
+    6400322: small rocks157
+    6400324: small rocks158
+    6400326: small rocks159
+    6400328: small rocks160
+    6400330: small rocks161
+    6400332: small rocks162
+    6400334: small rocks163
+    6400336: small rocks164
+    6400338: small rocks165
+    6400340: small rocks166
+    6400342: small rocks167
+    6400344: small rocks168
+    6400346: small rocks169
+    6400348: wood
+    6400350: wood003
+    6400352: wood1
+    6400354: wood2
+    6400356: wooden bucket
+    6400358: wooden bucket001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Debris
+    second: {fileID: 2100000, guid: 6540b31b854412d4db6db7b51f3bcc4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rock
+    second: {fileID: 2100000, guid: d44f34fe3a9301646a034131b8bca2d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bucket tex
+    second: {fileID: 2100000, guid: b8f2dbf103b18a7438e79977e4a380cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood
+    second: {fileID: 2100000, guid: b8f2dbf103b18a7438e79977e4a380cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wooden boards
+    second: {fileID: 2100000, guid: ed6f4f7d852ce6e48825f0a33cf887e1, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
