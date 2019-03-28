@@ -105,7 +105,32 @@ ModelImporter:
     4300032: "\xC9tage_3_6"
     4300034: "\xC9tage_2_6"
     4300036: "\xC9tage_1_6"
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Ciment_Bris\xE9"
+    second: {fileID: 2100000, guid: bbbf2c3572286a4409037496b1287ec7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Ciment_Bris\xE92"
+    second: {fileID: 2100000, guid: 4d6911390b7dc614aa60a4aab1bf951c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Ciment_Bris\xE93"
+    second: {fileID: 2100000, guid: c24004962a931fa4baced2c15642da9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: e6a87aad564340148b02912e0bcfd980, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "M\xE9tal_Rouill\xE9"
+    second: {fileID: 2100000, guid: 6b33f836aede82044bda31fa4a28ce69, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

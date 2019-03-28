@@ -1,0 +1,159 @@
+fileFormatVersion: 2
+guid: a445021056a3932419b2b98790b63bc1
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: U3DMesh
+    100004: World
+    400000: //RootNode
+    400002: U3DMesh
+    400004: World
+    2100000: priceSignB_jpg
+    2100002: priceSignA_jpg
+    2100004: brushedMetal_jpg
+    2100006: concreteSlabBlock_jpg
+    2100008: fuelPumpF_bmp
+    2100010: fuelPumpE_bmp
+    2100012: fuelPumpD_bmp
+    2100014: fuelPumpB_bmp
+    2100016: fuelPumpC_bmp
+    2100018: fuelPumpAB_bmp
+    2100020: bareMetal_jpg
+    2100022: shingles2_bmp
+    2100024: cashRegisterB_bmp
+    2100026: cashRegisterA_bmp
+    2100028: cashRegisterD_bmp
+    2100030: cashRegisterC_bmp
+    2100032: cashRegisterE_bmp
+    2100034: cashRegisterF_bmp
+    2100036: productF_jpg
+    2100038: lowResWoodGrain_jpg
+    2100040: interiorWalls_bmp
+    2100042: windowMount_jpg
+    2100044: napkinDispenserA_bmp
+    2100046: napkinDispenserB_bmp
+    2100048: windowGlass_tga
+    2100050: icedCoffeeB_jpg
+    2100052: cappuccinoA_bmp
+    2100054: icedCoffeeA_bmp
+    2100056: slushMachineB_jpg
+    2100058: slushMachineTop_jpg
+    2100060: productD_jpg
+    2100062: productC_jpg
+    2100064: productB_jpg
+    2100066: productA_jpg
+    2100068: productE_jpg
+    2100070: strawsA_bmp
+    2100072: strawsB_bmp
+    2100074: utensilsA_bmp
+    2100076: utensilsB_bmp
+    2100078: coffeePotB_bmp
+    2100080: coffeePotA_jpg
+    2100082: slushMachineA_jpg
+    2100084: bakeryA_bmp
+    2100086: bakeryB_jpg
+    2100088: microwaveB_bmp
+    2100090: microwaveA_bmp
+    2100092: microwaveC_bmp
+    2100094: displayHoles_jpg
+    2100096: displayShelf_bmp
+    2100098: sodaMachineFinal_jpg
+    2100100: coolerDoors_bmp
+    2100102: smokingDisplayB_bmp
+    2100104: smokingDisplayA_bmp
+    2100106: smokingDisplayC_bmp
+    2100108: ceilingLights_jpg
+    2100110: wallSiding2_bmp
+    2100112: brick_jpg
+    2100114: lowResTile_jpg
+    2100116: wallSiding_bmp
+    4300000: U3DMesh
+    9500000: //RootNode
+    13700000: U3DMesh
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
