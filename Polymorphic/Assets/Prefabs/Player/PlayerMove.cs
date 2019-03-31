@@ -136,8 +136,9 @@ public class PlayerMove : MonoBehaviour
 			jumpForce = jumpFallOff.Evaluate(timeInAir); // Determine how quickly the player should be moving upwards
 			posVertSpeed = jumpForce * jumpMultiplier * Time.deltaTime;
 			timeInAir += Time.deltaTime;
-			
-			yield return null; // The point at which execution will pause and be resumed next frame
+
+			//yield return null; // The point at which execution will pause and be resumed next frame
+			yield return new WaitForFixedUpdate();
 		} while (jumpForce > 0.0f && !charController.isGrounded && charController.collisionFlags != CollisionFlags.Above);
 		// While the jump curve hasn't completed AND the player isn't grounded AND the player hasn't hit the ceiling
 
