@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 3023383934135150332}
   - component: {fileID: 2928673145243726047}
   - component: {fileID: 4213909816432927405}
+  - component: {fileID: 2912624847509657885}
   m_Layer: 0
   m_Name: EnemyDuck
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -131,6 +132,20 @@ MonoBehaviour:
   detectDistance: 10
   projectileWaitTime: 3
   projectileSpeed: 35
+  projectileDamageAmt: 8
+--- !u!114 &2912624847509657885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2927854739253532980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 702f9dbd210924b42a6a24b090bb4d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 10
 --- !u!1001 &1358685184096007432
 PrefabInstance:
   m_ObjectHideFlags: 0

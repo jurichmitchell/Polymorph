@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 5157118602135286822}
   - component: {fileID: 5099622061655365253}
   - component: {fileID: 7200612316045501883}
+  - component: {fileID: 5343864457970360001}
   m_Layer: 0
   m_Name: EnemySheep
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -131,6 +132,20 @@ MonoBehaviour:
   detectDistance: 16
   projectileWaitTime: 3.5
   projectileSpeed: 25
+  projectileDamageAmt: 10
+--- !u!114 &5343864457970360001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5099065236420615034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 702f9dbd210924b42a6a24b090bb4d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 20
 --- !u!1001 &2679133877841120124
 PrefabInstance:
   m_ObjectHideFlags: 0

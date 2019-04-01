@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1875397547748810418}
   - component: {fileID: 5251756549588179026}
   - component: {fileID: 3658267097016353026}
+  - component: {fileID: 3818306256300440080}
   m_Layer: 0
   m_Name: cat1_obj2
   m_TagString: Category1
@@ -109,3 +110,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3818306256300440080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2989607260924821536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24956e26dc31eba44a44b5f78adf8605, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmt: 50

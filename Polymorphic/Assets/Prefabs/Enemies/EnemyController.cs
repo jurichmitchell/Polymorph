@@ -8,6 +8,7 @@ public class EnemyController : MonoBehaviour
 	[SerializeField] private float detectDistance; // The distance the enemy can see the player from
 	[SerializeField] private float projectileWaitTime;
 	[SerializeField] private float projectileSpeed;
+	[SerializeField] private int projectileDamageAmt;
 
 	private Mesh enemyMesh;
 	private GameObject plantChild;
@@ -36,7 +37,8 @@ public class EnemyController : MonoBehaviour
 
 	private void CheckForPlayer() {
 		RaycastHit hit;
-		if (Physics.Raycast(transform.position, player.transform.position - transform.position, out hit, detectDistance))
+		Vector3 plantToPlayer = player.transform.position - plantChild.transform.position;
+		if (Physics.Raycast(plantChild.transform.position, plantToPlayer, out hit, detectDistance))
 			if (hit.transform.gameObject.CompareTag("Player")) {
 				playerVisible = true;
 				return;
@@ -69,11 +71,15 @@ public class EnemyController : MonoBehaviour
 			List<GameObject> ignoreObjects = new List<GameObject>();
 			ignoreObjects.Add(gameObject);
 			ignoreObjects.Add(plantChild);
+			List<GameObject> harmObjects = new List<GameObject>();
+			harmObjects.Add(player);
 
 			// Configure projectile controller
-			controller.setProjectileDirection(fireDirection);
-			controller.setProjectileSpeed(projectileSpeed);
+			controller.setDirection(fireDirection);
+			controller.setSpeed(projectileSpeed);
+			controller.setDamageAmt(projectileDamageAmt);
 			controller.setIgnoreObjectList(ignoreObjects);
+			controller.setHarmObjectList(harmObjects);
 
 			newProjectile.SetActive(true);
 

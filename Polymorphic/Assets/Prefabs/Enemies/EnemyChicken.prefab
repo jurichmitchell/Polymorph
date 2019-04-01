@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 3641031189720957190}
   - component: {fileID: 3734651674306152904}
   - component: {fileID: 7191698957586170730}
+  - component: {fileID: 2187553518035595277}
   m_Layer: 0
   m_Name: EnemyChicken
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -131,6 +132,21 @@ MonoBehaviour:
   detectDistance: 8
   projectileWaitTime: 2
   projectileSpeed: 40
+  projectileDamageAmt: 5
+--- !u!114 &2187553518035595277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3733603635323076880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 702f9dbd210924b42a6a24b090bb4d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 10
+  currentHealth: 0
 --- !u!1001 &5773158015686361912
 PrefabInstance:
   m_ObjectHideFlags: 0

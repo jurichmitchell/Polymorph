@@ -5,9 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Bullet
-  - Category1
-  - Category2
-  - Category3
+  - Enemy
+  - FoodProjectile
+  - AnimalProjectile
+  - 2Projectile
   layers:
   - Default
   - TransparentFX

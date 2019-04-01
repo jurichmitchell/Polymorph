@@ -9,6 +9,7 @@ public class WeaponController : MonoBehaviour
 	[SerializeField] private string shootInputName;
 	[SerializeField] private string destroyInputName;
 	[SerializeField] private float projectileForce;
+	[SerializeField] private int projectileDamageAmt;
 
 	[SerializeField] private GameObject weaponSelectScroll;
 
@@ -19,16 +20,27 @@ public class WeaponController : MonoBehaviour
 	[SerializeField] private GameObject[] category2;
 	[SerializeField] private GameObject[] category3;
 	private SortedList categories = new SortedList(); // A list that holds all of the category sets of GameObjects
+	private SortedList<int, string> categoryNames = new SortedList<int, string>();
 
 	private Mesh weaponMesh;
+	private PlayerUIController UIController;
 
-	private void Awake() {
+	private void Start() {
 		weaponMesh = GetComponent<MeshFilter>().mesh;
+		UIController = gameObject.GetComponentInParent<PlayerUIController>();
 
 		categories.Add(1, category1);
 		categories.Add(2, category2);
 		categories.Add(3, category3);
+
+		categoryNames.Add(1, "Food");
+		categoryNames.Add(2, "2");
+		categoryNames.Add(3, "Animal");
+		
 		currentCategory = 1;
+		string value = "";
+		categoryNames.TryGetValue(currentCategory, out value);
+		UIController.updateCategory(value);
 	}
 
     private void Update() {
@@ -53,37 +65,82 @@ public class WeaponController : MonoBehaviour
 			// Add a forward vecor with magnitude equal to half the width of the weapon and projectile z axes in their local spaces
 			projectileSpawnPos += transform.forward * (weaponForwardHalfWidth + projectileForwardHalfWidth);
 
-			// Create the projectile and give it a force
+
+
+
+
+
+			// Create the projectile
 			GameObject newProjectile = Instantiate(currentProjectile, projectileSpawnPos, transform.rotation) as GameObject;
+			PhysicsProjectileController controller = newProjectile.GetComponent<PhysicsProjectileController>();
+			newProjectile.transform.SetParent(projectileParent.transform);
+
+			Vector3 fireDirection = Vector3.Normalize(transform.forward);
+			List<GameObject> ignoreObjects = new List<GameObject>();
+			ignoreObjects.Add(gameObject); // Weapon
+			ignoreObjects.Add(gameObject.transform.parent.gameObject); // Player
+			List<string> harmTags = new List<string>();
+			harmTags.Add("Enemy");
+
+			// Configure projectile controller
+			controller.setDirection(fireDirection);
+			controller.setForce(projectileForce);
+			//controller.setDamageAmt(projectileDamageAmt);
+			controller.setIgnoreObjectList(ignoreObjects);
+			controller.setHarmTagsList(harmTags);
+
+			newProjectile.SetActive(true);
+
+
+
+
+
+			// Create the projectile and give it a force
+			/*GameObject newProjectile = Instantiate(currentProjectile, projectileSpawnPos, transform.rotation) as GameObject;
 			newProjectile.transform.SetParent(projectileParent.transform);
 			newProjectile.SetActive(true);
-			newProjectile.GetComponent<Rigidbody>().AddForce(transform.forward * projectileForce);
+			newProjectile.GetComponent<Rigidbody>().AddForce(transform.forward * projectileForce);*/
 		}
 	}
 
 	private void DestroyProjectiles() {
 		if (Input.GetButtonDown(destroyInputName)) {
-			foreach (Transform projectile in projectileParent.transform)
-				if (projectile.gameObject.CompareTag("Category" + currentCategory))
-				GameObject.Destroy(projectile.gameObject);
+			foreach (Transform projectile in projectileParent.transform) {
+				string categoryName = "";
+				categoryNames.TryGetValue(currentCategory, out categoryName);
+
+
+
+				if (projectile.gameObject.CompareTag(categoryName + "Projectile"))
+					GameObject.Destroy(projectile.gameObject);
+			}
+				
 		}
 	}
 
 	private void SwitchCategories() {
+		bool switched = false;
+
 		if (Input.GetKeyDown(KeyCode.Alpha1)) {
-			Debug.Log("Category1");
 			currentCategory = 1;
+			switched = true;
 			//EventSystem.current.SetSelectedGameObject(weaponSelectScroll);
 		}
 
 		if (Input.GetKeyDown(KeyCode.Alpha2)) {
-			Debug.Log("Category2");
 			currentCategory = 2;
+			switched = true;
 		}
 
 		if (Input.GetKeyDown(KeyCode.Alpha3)) {
-			Debug.Log("Category3");
 			currentCategory = 3;
+			switched = true;
+		}
+
+		if (switched) {
+			string value;
+			categoryNames.TryGetValue(currentCategory, out value);
+			UIController.updateCategory(value);
 		}
 	}
 }

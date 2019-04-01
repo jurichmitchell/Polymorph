@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 1909093204755472752}
   - component: {fileID: 1958433025753524335}
   - component: {fileID: 695802049422065487}
+  - component: {fileID: 5664341686439392515}
   m_Layer: 0
   m_Name: EnemyPig
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -131,6 +132,20 @@ MonoBehaviour:
   detectDistance: 12
   projectileWaitTime: 3.5
   projectileSpeed: 30
+  projectileDamageAmt: 12
+--- !u!114 &5664341686439392515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958643517112205544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 702f9dbd210924b42a6a24b090bb4d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 15
 --- !u!1001 &1335743496139391763
 PrefabInstance:
   m_ObjectHideFlags: 0
