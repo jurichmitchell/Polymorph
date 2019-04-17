@@ -20,9 +20,12 @@ public class PlayerLook : MonoBehaviour
 
 	private float xAxisClamp;
 
+	private bool dead;
+
     private void Awake() {
         LockCursor();
 		xAxisClamp = 0.0f;
+		dead = false;
     }
 
 	// Locks the cursor to the center of the screen
@@ -31,7 +34,8 @@ public class PlayerLook : MonoBehaviour
     }
 
     private void Update() {
-        CameraRotation();
+		if (!dead)
+			CameraRotation();
     }
 
 	// Handles camera rotation through mouse movement
@@ -62,5 +66,10 @@ public class PlayerLook : MonoBehaviour
 		Vector3 eulerRotation = transform.eulerAngles;
 		eulerRotation.x = value;
 		transform.eulerAngles = eulerRotation;
+	}
+
+	public void SetDead(bool val) {
+		dead = val;
+		Cursor.lockState = CursorLockMode.None;
 	}
 }

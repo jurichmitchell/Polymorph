@@ -34,7 +34,7 @@ public class WeaponController : MonoBehaviour
 		categories.Add(3, category3);
 
 		categoryNames.Add(1, "Food");
-		categoryNames.Add(2, "2");
+		categoryNames.Add(2, "Furniture");
 		categoryNames.Add(3, "Animal");
 		
 		currentCategory = 1;
@@ -65,11 +65,6 @@ public class WeaponController : MonoBehaviour
 			// Add a forward vecor with magnitude equal to half the width of the weapon and projectile z axes in their local spaces
 			projectileSpawnPos += transform.forward * (weaponForwardHalfWidth + projectileForwardHalfWidth);
 
-
-
-
-
-
 			// Create the projectile
 			GameObject newProjectile = Instantiate(currentProjectile, projectileSpawnPos, transform.rotation) as GameObject;
 			PhysicsProjectileController controller = newProjectile.GetComponent<PhysicsProjectileController>();
@@ -90,16 +85,6 @@ public class WeaponController : MonoBehaviour
 			controller.setHarmTagsList(harmTags);
 
 			newProjectile.SetActive(true);
-
-
-
-
-
-			// Create the projectile and give it a force
-			/*GameObject newProjectile = Instantiate(currentProjectile, projectileSpawnPos, transform.rotation) as GameObject;
-			newProjectile.transform.SetParent(projectileParent.transform);
-			newProjectile.SetActive(true);
-			newProjectile.GetComponent<Rigidbody>().AddForce(transform.forward * projectileForce);*/
 		}
 	}
 

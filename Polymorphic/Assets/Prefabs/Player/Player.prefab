@@ -106,17 +106,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shootInputName: Fire1
   destroyInputName: Fire2
-  projectileForce: 2000
+  projectileForce: 1000
+  projectileDamageAmt: 0
   weaponSelectScroll: {fileID: 0}
   projectileParent: {fileID: 0}
   category1:
-  - {fileID: 5062437190507858649, guid: 3230c090d17752e49b457061ebe8381d, type: 3}
-  - {fileID: 2989607260924821536, guid: 8820d3a39ba1a104cb720a1e61857d1a, type: 3}
-  - {fileID: 6158197424437226360, guid: 76a00b0a0f64f7f4e946c613dfaed9cf, type: 3}
+  - {fileID: 1000012997751318, guid: 0550765fb22bb954ea0412b7153ff417, type: 3}
+  - {fileID: 1000011448446114, guid: 8155176e03f33f44884efb0dd767197c, type: 3}
+  - {fileID: 1000010528404258, guid: b7d70d80ddd390f41a1bdde5957f74f0, type: 3}
+  - {fileID: 1000010917563242, guid: 6e2574af69e1ddd4497a11adb45777a1, type: 3}
+  - {fileID: 1000011314148014, guid: 91e1f9e8a986ed344be385215d3145b3, type: 3}
+  - {fileID: 1000011100452964, guid: 94d292219d961b445b269659a3994172, type: 3}
+  - {fileID: 1000011379175792, guid: 931dfc52fd271a846b05a6bf70694fca, type: 3}
+  - {fileID: 1000012400448258, guid: 9b21be590f33e0d4ba19fec73ce555da, type: 3}
+  - {fileID: 1000013939694586, guid: 180079041c49091489282ea6ecb31fbe, type: 3}
+  - {fileID: 1000013122234568, guid: 87a32384fe2633648996ab825d5f4b5b, type: 3}
+  - {fileID: 1067201021930494, guid: 097013ceeb8052648be3891c0984df9a, type: 3}
+  - {fileID: 1000010466361374, guid: 80c29c7e0bd64654f8f59dda85e24897, type: 3}
+  - {fileID: 1000012023308628, guid: 2a79153a0e896724caa73afa19f708c8, type: 3}
+  - {fileID: 1000011546679732, guid: c50664c203e2d3d4bbe40a0ffea7d149, type: 3}
+  - {fileID: 1000011323704582, guid: 927b358a489fa874780f1278268d7bfb, type: 3}
+  - {fileID: 1000013284424148, guid: b29c3addc4240254785fef8671d1291b, type: 3}
   category2:
-  - {fileID: 7864291068403079235, guid: 9382b70dc14376f4a8326a32b419200f, type: 3}
-  - {fileID: 3874261632123113823, guid: 787a7d2af7557be4b90d958789a99b6b, type: 3}
-  - {fileID: 3754405335569184958, guid: 6cb7cc051273c764f95d7412a8ed4364, type: 3}
+  - {fileID: 1852087973350402893, guid: 7c5c47de667111e4090e0668326d7701, type: 3}
+  - {fileID: 4162749961921685479, guid: d8f7028a21ca23c40928c7e715b27637, type: 3}
+  - {fileID: 1206704503814168780, guid: dc158b187cb34314280f79888e7a2cff, type: 3}
+  - {fileID: 4463295103924982262, guid: 0e30a47fc22306d4885e009f47368567, type: 3}
+  - {fileID: 365974014568837907, guid: cee8c92b9d03c104d85806095b2de613, type: 3}
+  - {fileID: 4049100206520531175, guid: cc8f0624cbb33ba4a80a5586c0f1cb2c, type: 3}
+  - {fileID: 4394128334168966079, guid: d4e3f078471d6344dbc26a8b757ce7ec, type: 3}
+  - {fileID: 3998282943787076078, guid: 1a287f78a238b5a4eafb0968068598db, type: 3}
+  - {fileID: 3799120973934242422, guid: 60a7314f977c82e4c966d2ba2b796f84, type: 3}
+  - {fileID: 494151331233536210, guid: aeced64d56ebf8e4abf0ec46972f99dd, type: 3}
+  - {fileID: 6475434737312532580, guid: 798d3a28f5d220d4788a740bc5fa4da8, type: 3}
+  - {fileID: 3612714312567507431, guid: 2f82c8391754eab4bb462957afe48172, type: 3}
+  - {fileID: 1332518816224493628, guid: 87bc67342153a5549ac0d7160d7b5db7, type: 3}
+  - {fileID: 15162998947937577, guid: b30aedd0dd505c446a06fc173ec729f6, type: 3}
+  - {fileID: 3830774212466284091, guid: 13c93c7b1f34a1345bc6292edd6662f6, type: 3}
   category3:
   - {fileID: 7191698958182669328, guid: 6b648ad305bfd6b4bb8f937d932b9520, type: 3}
   - {fileID: 8692475985167062286, guid: 06201d09dda43244588b21b0e236c0ad, type: 3}
@@ -236,7 +262,7 @@ GameObject:
   - component: {fileID: 4722963556748399935}
   - component: {fileID: 1001623161}
   - component: {fileID: 1001623157}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}

@@ -61,8 +61,10 @@ public class ProjectileController : MonoBehaviour {
 	}
 
 	private void OnTriggerEnter(Collider other) {
-		if (!ignoreObjects.Contains(other.gameObject))
+		if (!ignoreObjects.Contains(other.gameObject)) {
 			GameObject.Destroy(gameObject);
+		}
+
 		if (harmObjects.Contains(other.gameObject) || harmTags.Contains(other.gameObject.tag))
 			other.gameObject.GetComponent<Health>().takeDamage(damageAmt);
 	}

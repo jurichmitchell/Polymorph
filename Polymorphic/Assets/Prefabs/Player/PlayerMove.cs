@@ -42,12 +42,16 @@ public class PlayerMove : MonoBehaviour
 	private float negVertSpeed = 0;
 	private float gravity = 9.8f;
 
+	private bool dead;
+
 	private void Awake() {
 		charController = GetComponent<CharacterController>();
+		dead = false;
 	}
 
 	private void Update() {
-		PlayerMovement();
+		if (!dead)
+			PlayerMovement();
 	}
 
 	private void PlayerMovement() {
@@ -146,5 +150,9 @@ public class PlayerMove : MonoBehaviour
 		charController.slopeLimit = originalSlopeLimit;
 		posVertSpeed = 0.0f;
 		isJumping = false;
+	}
+
+	public void SetDead(bool val) {
+		dead = val;
 	}
 }

@@ -81,6 +81,8 @@ public class EnemyController : MonoBehaviour
 			controller.setIgnoreObjectList(ignoreObjects);
 			controller.setHarmObjectList(harmObjects);
 
+			//Debug.Log("THE ID: " + gameObject.GetInstanceID());
+
 			newProjectile.SetActive(true);
 
 			timeSinceLastProjectile += Time.deltaTime;

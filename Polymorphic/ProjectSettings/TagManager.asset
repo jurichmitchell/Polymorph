@@ -9,6 +9,9 @@ TagManager:
   - FoodProjectile
   - AnimalProjectile
   - 2Projectile
+  - Category1
+  - Category3
+  - FurnitureProjectile
   layers:
   - Default
   - TransparentFX
@@ -19,8 +22,8 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
-  - 
+  - BlockOnlyPlayer
+  - Player
   - 
   - 
   - 
